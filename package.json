@@ -1,0 +1,14 @@
+{
+  "name": "telegram-postback-bot",
+  "version": "1.0.0",
+  "description": "A Vercel serverless function to send Telegram messages on CPA postbacks.",
+  "main": "api/postback.js",
+  "dependencies": {
+    "axios": "^1.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
