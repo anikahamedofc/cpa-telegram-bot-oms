@@ -20,9 +20,9 @@ module.exports = async (req, res) => {
     const payout = req.query.payout;
 
     // Check for required parameters
-    if (!clickId || !device || !mac || !payout) {
-        return res.status(400).send('Missing parameters');
-    }
+   }if (!clickId || !device || !mac || !payout) {
+    return res.status(400).send('Missing parameters');
+}
 
     // Custom Telegram message
     const message = 
